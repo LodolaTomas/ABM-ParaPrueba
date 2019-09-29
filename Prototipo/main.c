@@ -3,7 +3,8 @@
 #include "inputs.h"
 #include "Local.h"
 #include "alumno.h"
-
+//settings-Enviroment-GeneralSetings-TerminaltoLunchConsolePrograms
+//settings-Editor-GeneralSettings-EditorSettings-Fonts-Manjari
 #define LL 3
 //lengh localidad
 #define LA 5
@@ -17,18 +18,8 @@ int main()
     hardcode_Localidad(listaDelocalidades,LL);
     hardCodearAlumnos(listaDeAlumnos,LA);
 
-    /*
-    int i;
-    for(i=0;i<LA;i++)
-    {
-    if(listaDeAlumnos[i].estado==LIBRE)
-    {
-        listaDeAlumnos[i]=cargarAlumno(listaDelocalidades,LL);
-    }
-    }*/
-
-
-    mostrarListadoAlumnos(listaDeAlumnos,LA,listaDelocalidades,LL);
+    agregarAlumno(listaDeAlumnos,LA,listaDelocalidades,LL);
+    submenu_Mostrar(listaDeAlumnos,LA,listaDelocalidades,LL);
 
 
     return 0;

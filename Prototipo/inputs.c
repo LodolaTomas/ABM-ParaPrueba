@@ -195,6 +195,7 @@ void getValidInt(char requestMessage[],char errorMessage[], int lowLimit, int hi
         if(*input < lowLimit || *input > hiLimit)
         {
             printf ("El numero del debe ser mayor a %d y menor a %d\n",lowLimit,hiLimit);
+
             continue;
         }
         break;
