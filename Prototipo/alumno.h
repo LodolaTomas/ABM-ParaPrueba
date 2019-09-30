@@ -14,19 +14,23 @@ typedef struct
 
 }eAlumno;
 
-
+void inicializar_Alumnos(eAlumno listadoDeAlumnos[],int lengAlumnos);
 eAlumno cargarAlumno(eLocalidad arrayLocalidad[], int lengLocalidad);
 int buscar_Libre(eAlumno listadoDeAlumnos[],int lengAlumnos);
-void agregarAlumno(eAlumno listadoDeAlumnos[],int lengAlumnos,eLocalidad arrayLocalidad[],int lengLocalidad);
-void hardCodearAlumnos(eAlumno listadoDeAlumnos[], int tam);
+int agregarAlumno(eAlumno listadoDeAlumnos[],int lengAlumnos,eLocalidad arrayLocalidad[],int lengLocalidad,int id_beta);
+int hardCodearAlumnos(eAlumno listadoDeAlumnos[], int tam,int id);
 void mostrarUnAlumno(eAlumno miAlumno, eLocalidad miLocalidad);
 void mostrarListadoAlumnos(eAlumno listadoDeAlumnos[], int tam, eLocalidad listaLocalidad[], int lenLocal);
+void sortStudentsByNameAndAverage(eAlumno listadoDeAlumnos[], int tam);
+int eliminarAlumno(eAlumno listadoDeAlumnos[], int tam, eLocalidad listaLocalidad[], int lenLocal);
 
 void submenu_Mostrar(eAlumno listadoDeAlumnos[],int lengAlumnos,eLocalidad arrayLocalidad[],int lengLocalidad);
 void mostrar_porLocalidad(eAlumno listadoDeAlumnos[],int lengAlumnos,eLocalidad arrayLocalidad[],int lengLocalidad);
 
 void mostrar_SoloAvellaneda(eAlumno listadoDeAlumnos[],int lengAlumnos,eLocalidad arrayLocalidad[],int lengLocalidad);
 void mostrar_MenosHabitantes(eAlumno listadoDeAlumnos[],int lengAlumnos,eLocalidad arrayLocalidad[],int lengLocalidad);
+
+int verifyConformity (char message[], char cancelMessage[]);
 
 void pausa();
 void borrar();

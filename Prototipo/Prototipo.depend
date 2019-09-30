@@ -79,7 +79,7 @@
 	"Local.h"
 	"alumno.h"
 
-1569716969 source:/home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/alumno.c
+1569808796 source:/home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/alumno.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
@@ -87,13 +87,13 @@
 	"Local.h"
 	"alumno.h"
 
-1569550964 /home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/inputs.h
+1569801951 /home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/inputs.h
 
-1569608789 /home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/Local.h
+1569804876 /home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/Local.h
 
-1569717048 /home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/alumno.h
+1569808779 /home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/alumno.h
 
-1569715184 source:/home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/inputs.c
+1569808992 source:/home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/inputs.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -108,7 +108,7 @@
 	"inputs.h"
 	"Local.h"
 
-1569717102 source:/home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/main.c
+1569808779 source:/home/tomas/Escritorio/ABM-ParaPrueba/Prototipo/main.c
 	<stdio.h>
 	<stdlib.h>
 	"inputs.h"

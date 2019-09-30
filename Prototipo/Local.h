@@ -12,3 +12,22 @@ void mostrar_unaLocalidad(eLocalidad unaLocalidad);
 void mostrar_Localidades(eLocalidad arrayLocalidad[] ,int lenLocalidad);
 void hardcode_Localidad(eLocalidad arrayLocalidad[],int lenLocalidad);
 int buscarLocalidadId(eLocalidad listaLocalidad[], int lenLocal, int idLocal);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
